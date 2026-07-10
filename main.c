@@ -11,6 +11,8 @@ int main(int argc, const char* argv[]) {
     l = inserir(l, 9);
     l = inserir(l, 16);
 
+    imprimir(l);
+    
     liberar(l);
     l = NULL;
 
