@@ -40,4 +40,11 @@ void liberar(Lista* l);
 // Pós-condição: os elementos da lista são exibidos na tela
 void imprimir(Lista* l);
 
+// Faz a remoção de um item da lista
+// Entrada: lista e elemento a ser removido
+// Retorno: lista atualizada
+// Pré-condição: nenhuma
+// Pós-condição: o elemento é removido da lista, caso exista
+Lista* retirar(Lista* l, TipoItem x);
+
 #endif /* listaCircular_h */
